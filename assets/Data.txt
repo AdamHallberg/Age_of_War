@@ -1,0 +1,171 @@
+Melee
+    damage        50
+    hp            200
+    movementSpeed 70
+    attackSpeed   70
+    cost          50
+    deathValue    65
+    boxSize       64 80
+    spriteDim     128 128
+    filename      melee_sprite_sheet.png
+
+Ranged
+    damage        0
+    hp            150
+    movementSpeed 70
+    range         300
+    attackSpeed   70
+    cost          75
+    deathValue    85
+    boxSize       96 80
+    spriteDim     128 128
+    filename      ranged_sprite_sheet.png
+
+Tank
+    damage        100
+    hp            500
+    movementSpeed 70
+    attackSpeed   35
+    cost          150
+    deathValue    175
+    boxSize       64 80
+    spriteDim     128 128
+    filename      tank_sprite_sheet.png
+
+Base
+    hp            1500
+    spriteSpeed   5
+    spriteScale   2
+    boxSize       300 249
+    spriteDim     512 256
+    filename      base_sprite_sheet.png
+
+Turret
+    range        800
+    cost         600
+    attackSpeed  70
+    specialAttackSpeed 1100
+    cooldown     40
+    specialAngle 75
+    originX      96
+    originY      32
+    spriteDim    128 64
+    filename canon_sprite_sheet.png
+
+RangedProjectile
+    damage        50
+    hp            1
+    movementSpeed 1250
+    boxSize       5 5
+    spriteDim     8 8
+    filename      assets/musketBall.png
+
+TurretProjectile
+    damage        50
+    hp            1
+    movementSpeed 1250
+    boxSize       20 20
+    spriteDim     32 32
+    filename      assets/canonBall.png 
+
+SpecialProjectile
+    damage        250
+    hp            1
+    movementSpeed 2000
+    boxSize       20 20
+    spriteDim     32 32
+    filename      assets/canonBall.png
+
+GameMusic
+    volume 20
+    enabled 1
+    filename assets/Age-of-War-Theme-Song.ogg
+
+MainMusic
+    volume 50
+    enabled 1
+    filename assets/AgeOfWarMain.ogg
+
+CreditsMusic
+    volume 60
+    enabled 1
+    filename assets/AgeOfWarCredits.ogg
+
+GameSound
+    volume 70
+    enabled 1
+
+TitleFont
+    filename assets/coolFont.ttf
+
+GameFont
+    filename assets/newFont.ttf
+
+CreditFont
+    filename assets/headerFont.ttf
+
+Background
+    filename assets/background.jpeg
+
+Cursor
+    filename assets/cursor_pixelart.png
+
+Ground
+    filename assets/ground.png
+    
+Trees
+    spriteScale 4
+    filename assets/trees.png
+
+GameCoin
+    filename assets/gameCoin.png
+
+GUITexture
+    filename assets/interfaceBackground.jpeg
+
+check
+    filename assets/check.png
+
+buttonSFX
+    filename assets/SFX/button.ogg
+
+buyTurretSFX
+    filename assets/SFX/buyTurret.ogg
+
+toggleSFX
+    filename assets/SFX/toggle.ogg
+
+gunshotSFX
+    filename assets/SFX/gunshot.ogg
+
+specialAttack
+    filename assets/special.png
+
+settingsIcon
+    filename assets/settings.png
+
+sword1SFX
+    filename assets/SFX/sword1.ogg
+
+sword2SFX
+    filename assets/SFX/sword2.ogg
+
+sword3SFX
+    filename assets/SFX/sword3.ogg
+
+turretClickSFX
+    filename assets/SFX/turretClick.ogg
+
+CreditsFade
+    filename assets/gradient.png
+
+Enemy
+    listSize    3
+    waveSize    2
+    waveLimit   2
+    timeDelay   80
+    turretTime  10
+    upgradeTime 8
+
+StartStats
+    gold 200
